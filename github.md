@@ -3,7 +3,7 @@
 ---
 ## git-github 연결
 ```
-git remote add origin {repository_name}
+git remote add origin {repository_name}.git
 ```
 ---
 ## Pull
