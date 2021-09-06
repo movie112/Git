@@ -64,4 +64,25 @@ git {명령어} --help  // Git manual page로 이동하여 자세한 설명
 git help --all      //  전체 명령어에 대한 설명
 ```
 ---
+## Branch
+- branch: 메인 프로젝트의 새로운 버전, 메인 파일에는 영향을 끼치지 않으면서 여러 가지 branch를 만들어 시도할 수 있다.
+```
+git branch {name}
+```
+- 현재 생성되어 있는 branch들 확인 가능
+- * 이 현재 작업하고 있는 branch
+```
+git branch
+```
+- 다른 branch로 이동해서 작업
+```
+git checkout {name}
+git checkout -b {name2}  // branch 바로 생성하고 이동
+```
+---
+## Branch Merge
+```
+git merge {name}
+git branch -d {name}  // 변경사항이 master에 반영되어 branch 삭제
+```
 
