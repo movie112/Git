@@ -33,3 +33,30 @@ git merge origin master
 git commit -a -m {message}
 git push origin
 ```
+---
+## Clone
+```
+git clone {repository URL} {디렉토리 이름}
+```
+---
+## Ignore
+- 일부 파일 숨기기
+```
+touch .gitignore  # file 생성
+# 설정은 작성규칙 참고
+```
+---
+## Revert
+- 이전 commit 버전으로 되돌리기
+- 1-2-3-4-5 -> 1-2-3-4-5-6(4)
+```
+git log --oneline # 우선 로그 기록 간단하게 보기
+git revert HEAD --no-edit # 가장 최근 버전으로 되돌리기
+git revert HEAD~{N} --no-edit # 가장 최근 버전의 N번 밑의 버전으로 되돌리기
+```
+---
+## Reset
+- 1-2-3-4-5 -> 1-2-3-4
+```
+git reset {commit hash}
+```
