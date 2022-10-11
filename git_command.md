@@ -143,7 +143,7 @@ git log --oneline # 우선 로그 기록 간단하게 보기
 git revert HEAD --no-edit # 가장 최근 버전으로 되돌리기
 git revert HEAD~{N} --no-edit # 가장 최근 버전의 N번 밑의 버전으로 되돌리기
 ```
----
+
 ## ✏️ Reset
 - 1-2-3-4-5 -> 1-2-3-4
 ```
