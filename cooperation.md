@@ -33,7 +33,7 @@ git push origin {branch name}
 ## Pull Request
 - Compare & Pull request 버튼
 - 메시지 작성
-# branch 삭제
+## branch 삭제
 ```
 # 코드 동기화
 git pull {remote 별명}
