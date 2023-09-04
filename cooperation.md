@@ -36,7 +36,7 @@ git push origin {branch name}
 ## branch 삭제
 ```
 # 코드 동기화
-git pull {remote 별명}
+git pull {remote 별명} main
 
 # branch 삭제
 git branch -d {branch name}
