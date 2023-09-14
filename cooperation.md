@@ -41,3 +41,9 @@ git pull {remote 별명} main
 # branch 삭제
 git branch -d {branch name}
 ```
+
+## + git pull Already up to date
+```
+git fetch --all
+git reset --hard origin/master
+```
