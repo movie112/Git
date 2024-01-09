@@ -127,6 +127,8 @@ git push origin
 ## ✏️ Clone
 ```
 git clone {repository URL} {디렉토리 이름}
+# private repository clone
+git clone https://{token}@github.com/movie112/Git_command.git
 ```
 
 ## ✏️ Ignore
