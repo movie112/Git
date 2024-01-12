@@ -1,4 +1,5 @@
 # Tmux 명령어 
+https://knackin.tistory.com/4
 
 ## 설치
 - for MacOS
