@@ -13,6 +13,7 @@
   - `ctrl+b`, `$` # 원하는 이름 적고 Enter
 - sesstion 종료 (session 없어짐)
   - `exit` or `ctrl+d` # pane -> window 순으로 하나 씩 닫힘
+  - `tmux kill-session -t {session_name}` 강제 종료
 - session 닫기 (detach, 백그라운드 지속)
   - `ctrl+b`, `d`
 - session 열기 (attach)
